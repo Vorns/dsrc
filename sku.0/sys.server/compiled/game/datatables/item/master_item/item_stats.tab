@@ -19,60 +19,60 @@ item_datapad_01_01
 item_tooth_01_01											
 item_tooth_01_02											
 item_feather_01_01											
-item_jedi_robe_padawan_04_01	agility_modified=21		int:armor.general_protection_clothing=1400								
-item_smuggler_shirt_02_01	agility_modified=3			index_color_1=42							
-item_smuggler_pants_02_01	agility_modified=3			"index_color_1=174,index_color_2=202"							
-item_smuggler_vest_02_01	agility_modified=3			index_color_1=31							
-item_smuggler_boots_02_01	agility_modified=3			index_color_1=31							
-item_trader_shirt_02_01	agility_modified=3			index_color_1=241							
-item_trader_pants_02_01	agility_modified=3			index_color_1=90							
-item_trader_vest_02_01	agility_modified=3			"index_color_1=241,index_color_2=138"							
-item_trader_shoes_02_01	agility_modified=3			index_color_1=11							
-item_entertainer_shirt_02_01	agility_modified=3			index_color_1=244							
-item_entertainer_pants_02_01	agility_modified=3			"index_color_1=6,index_color_2=244"							
-item_entertainer_hat_02_01	agility_modified=3			"index_color_1=6,index_color_2=244"							
-item_entertainer_boots_02_01	agility_modified=3			"index_color_1=43,index_color_2=31"							
-item_entertainer_shirt_02_02	agility_modified=3			"index_color_1=174,index_color_2=31"							
-item_entertainer_skirt_02_01	agility_modified=3			"index_color_1=6,index_color_2=174"							
-item_entertainer_gloves_02_01	agility_modified=3			"index_color_1=31,index_color_2=45"							
-item_entertainer_shoes_02_01	agility_modified=3			"index_color_1=6,index_color_2=7"							
-item_force_sensitive_shirt_02_01	agility_modified=3			"index_color_1=60,index_color_2=60"							
-item_force_sensitive_pants_02_01	agility_modified=3			index_color_1=60							
-item_force_sensitive_jacket_02_01	agility_modified=3			"index_color_1=60,index_color_2=6"							
-item_force_sensitive_boots_02_01	agility_modified=3			"index_color_1=50,index_color_2=47"							
-item_officer_shirt_02_01	agility_modified=3			"index_color_1=42,index_color_2=42"							
-item_officer_pants_02_01	agility_modified=3			index_color_1=42							
-item_officer_belt_02_01	agility_modified=3			index_color_1=0							
-item_officer_boots_02_01	agility_modified=3			"index_color_1=0,index_color_2=31"							
-item_commando_shirt_02_01	agility_modified=3			index_color_1=6							
-item_commando_pants_02_01	agility_modified=3			"index_color_1=60,index_color_2=6"							
-item_commando_vest_02_01	agility_modified=3			index_color_1=11							
-item_commando_boots_02_01	agility_modified=3			"index_color_1=31,index_color_2=63"							
-item_bounty_hunter_shirt_02_01	agility_modified=3			"index_color_1=68,index_color_2=6"							
-item_bounty_hunter_pants_02_01	agility_modified=3			"index_color_1=68,index_color_2=6"							
-item_bounty_hunter_vest_02_01	agility_modified=3			"index_color_1=68,index_color_2=6"							
-item_bounty_hunter_boots_02_01	agility_modified=3			index_color_1=31							
-item_medic_shirt_02_01	agility_modified=3			index_color_1=42							
-item_medic_pants_02_01	agility_modified=3			"index_color_1=42,index_color_2=215"							
-item_medic_vest_02_01	agility_modified=3			index_color_1=48							
-item_medic_shoes_02_01	agility_modified=3			"index_color_1=44,index_color_2=15"							
-item_spy_shirt_02_01	agility_modified=3			"index_color_1=90,index_color_2=3"							
-item_spy_pants_02_01	agility_modified=3			"index_color_1=90,index_color_2=46"							
-item_spy_gloves_02_01	agility_modified=3			"index_color_1=31,index_color_2=31"							
-item_spy_boots_02_01	agility_modified=3			"index_color_1=31,index_color_2=63"							
-item_wookiee_shirt_02_01	agility_modified=3			"index_color_1=29,index_color_2=59"							
-item_wookiee_pants_02_01	agility_modified=3			"index_color_1=29,index_color_2=59"							
-item_wookiee_hat_02_01	agility_modified=3			"index_color_1=41,index_color_2=16"							
-item_wookiee_gloves_02_01	agility_modified=3			"index_color_1=59,index_color_2=26"							
-item_ithorian_shirt_02_01	agility_modified=3			"index_color_1=31,index_color_2=63"							
-item_ithorian_pants_02_01	agility_modified=3			"index_color_1=6,index_color_2=63"							
-item_ithorian_vest_02_01	agility_modified=3			"index_color_0=0,index_color_1=63"							
-item_ithorian_gloves_02_01	agility_modified=3			index_color_1=6							
-item_stimpack_a_02_01			"int:healing.power=700,int:healing.combat_level_required=1"								
-item_stimpack_b_02_01			"int:healing.power=1600,int:healing.combat_level_required=15"								
-item_stimpack_c_02_01			"int:healing.power=2800,int:healing.combat_level_required=35"								
+item_jedi_robe_padawan_04_01	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,jedi_saber_assembly=5,jedi_saber_experimentation=5"		int:armor.general_protection_clothing=2500								
+item_smuggler_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			index_color_1=42							
+item_smuggler_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			"index_color_1=174,index_color_2=202"							
+item_smuggler_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			index_color_1=31							
+item_smuggler_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			index_color_1=31							
+item_trader_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,luck_modified=5,armor_experimentation=5,armor_assembly=5,general_experimentation=5,general_assembly=5,droid_experimentation=5,droid_assembly=5,weapon_experimentation=5,weapon_assembly=5,food_experimentation=5,food_assembly=5,clothing_experimentation=5,clothing_assembly=5,structure_experimentation=5,structure_assembly=5,chassis_experimentation=5,chassis_assembly=5,weapon_systems_experimentation=5,engine_experimentation=5,engine_assembly=5,booster_experimentation=5,booster_assembly=5,power_systems_experimentation=5,shields_experimentation=5,shields_assembly=5,advanced_ship_experimentation=5,cybernetic_assembly=5,cybernetic_experimentation=5,factory_speed=5,expertise_resource_quality_increase=5,incubation_time_reduction=5,bm_incubator_dps_armor=5,bm_mutation_chance_increase=5"			index_color_1=241							
+item_trader_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,luck_modified=5,armor_experimentation=5,armor_assembly=5,general_experimentation=5,general_assembly=5,droid_experimentation=5,droid_assembly=5,weapon_experimentation=5,weapon_assembly=5,food_experimentation=5,food_assembly=5,clothing_experimentation=5,clothing_assembly=5,structure_experimentation=5,structure_assembly=5,chassis_experimentation=5,chassis_assembly=5,weapon_systems_experimentation=5,engine_experimentation=5,engine_assembly=5,booster_experimentation=5,booster_assembly=5,power_systems_experimentation=5,shields_experimentation=5,shields_assembly=5,advanced_ship_experimentation=5,cybernetic_assembly=5,cybernetic_experimentation=5,factory_speed=5,expertise_resource_quality_increase=5,incubation_time_reduction=5,bm_incubator_dps_armor=5,bm_mutation_chance_increase=5"			index_color_1=90							
+item_trader_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,luck_modified=5,armor_experimentation=5,armor_assembly=5,general_experimentation=5,general_assembly=5,droid_experimentation=5,droid_assembly=5,weapon_experimentation=5,weapon_assembly=5,food_experimentation=5,food_assembly=5,clothing_experimentation=5,clothing_assembly=5,structure_experimentation=5,structure_assembly=5,chassis_experimentation=5,chassis_assembly=5,weapon_systems_experimentation=5,engine_experimentation=5,engine_assembly=5,booster_experimentation=5,booster_assembly=5,power_systems_experimentation=5,shields_experimentation=5,shields_assembly=5,advanced_ship_experimentation=5,cybernetic_assembly=5,cybernetic_experimentation=5,factory_speed=5,expertise_resource_quality_increase=5,incubation_time_reduction=5,bm_incubator_dps_armor=5,bm_mutation_chance_increase=5"			"index_color_1=241,index_color_2=138"							
+item_trader_shoes_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,luck_modified=5,armor_experimentation=5,armor_assembly=5,general_experimentation=5,general_assembly=5,droid_experimentation=5,droid_assembly=5,weapon_experimentation=5,weapon_assembly=5,food_experimentation=5,food_assembly=5,clothing_experimentation=5,clothing_assembly=5,structure_experimentation=5,structure_assembly=5,chassis_experimentation=5,chassis_assembly=5,weapon_systems_experimentation=5,engine_experimentation=5,engine_assembly=5,booster_experimentation=5,booster_assembly=5,power_systems_experimentation=5,shields_experimentation=5,shields_assembly=5,advanced_ship_experimentation=5,cybernetic_assembly=5,cybernetic_experimentation=5,factory_speed=5,expertise_resource_quality_increase=5,incubation_time_reduction=5,bm_incubator_dps_armor=5,bm_mutation_chance_increase=5"			index_color_1=11							
+item_entertainer_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			index_color_1=244							
+item_entertainer_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=6,index_color_2=244"							
+item_entertainer_hat_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=6,index_color_2=244"							
+item_entertainer_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=43,index_color_2=31"							
+item_entertainer_shirt_02_02	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=174,index_color_2=31"							
+item_entertainer_skirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=6,index_color_2=174"							
+item_entertainer_gloves_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=31,index_color_2=45"							
+item_entertainer_shoes_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,stamina_modified=5,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"			"index_color_1=6,index_color_2=7"							
+item_force_sensitive_shirt_02_01	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,jedi_saber_assembly=5,jedi_saber_experimentation=5"			"index_color_1=60,index_color_2=60"							
+item_force_sensitive_pants_02_01	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,jedi_saber_assembly=5,jedi_saber_experimentation=5"			index_color_1=60							
+item_force_sensitive_jacket_02_01	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,jedi_saber_assembly=5,jedi_saber_experimentation=5"			"index_color_1=60,index_color_2=6"							
+item_force_sensitive_boots_02_01	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,melee_defense=1,ranged_defense=1"			"index_color_1=50,index_color_2=47"							
+item_officer_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_defense=1,ranged_defnse=1"			"index_color_1=42,index_color_2=42"							
+item_officer_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			index_color_1=42							
+item_officer_belt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_defense=1,ranged_defense=1"			index_color_1=0							
+item_officer_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_defense=1,ranged_defense=1"			"index_color_1=0,index_color_2=31"							
+item_commando_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			index_color_1=6							
+item_commando_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=60,index_color_2=6"							
+item_commando_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,ranged_defense=1"			index_color_1=11							
+item_commando_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,melee_defense=1"			"index_color_1=31,index_color_2=63"							
+item_bounty_hunter_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=68,index_color_2=6"							
+item_bounty_hunter_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=68,index_color_2=6"							
+item_bounty_hunter_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=68,index_color_2=6"							
+item_bounty_hunter_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			index_color_1=31							
+item_medic_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			index_color_1=42							
+item_medic_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=42,index_color_2=215"							
+item_medic_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			index_color_1=48							
+item_medic_shoes_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=44,index_color_2=15"							
+item_spy_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=90,index_color_2=3"							
+item_spy_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=90,index_color_2=46"							
+item_spy_gloves_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=31,index_color_2=31"							
+item_spy_boots_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1"			"index_color_1=31,index_color_2=63"							
+item_wookiee_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=29,index_color_2=59"							
+item_wookiee_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=29,index_color_2=59"							
+item_wookiee_hat_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=41,index_color_2=16"							
+item_wookiee_gloves_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=59,index_color_2=26"							
+item_ithorian_shirt_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=31,index_color_2=63"							
+item_ithorian_pants_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_1=6,index_color_2=63"							
+item_ithorian_vest_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			"index_color_0=0,index_color_1=63"							
+item_ithorian_gloves_02_01	"constitution_modified=5,agility_modified=5,precision_modified=5,stamina_modified=5,strength_modified=5,melee_accuracy=1,ranged_accuracy=1,creature_harvesting=5"			index_color_1=6							
+item_stimpack_a_02_01			"int:healing.power=1000,int:healing.combat_level_required=1"								
+item_stimpack_b_02_01			"int:healing.power=2000,int:healing.combat_level_required=15"								
+item_stimpack_c_02_01			"int:healing.power=3000,int:healing.combat_level_required=35"								
 item_stimpack_d_02_01			"int:healing.power=4000,int:healing.combat_level_required=60"								
-item_stimpack_e_02_01			"int:healing.power=4800,int:healing.combat_level_required=80"								
+item_stimpack_e_02_01			"int:healing.power=5500,int:healing.combat_level_required=80"								
 item_npe_health_paste_01_01					npeHealthBuff	short_reuse_1	5			appearance/pt_heal_resist_states.prt	
 item_npe_action_ventilator_01_01					npeStaminaBuff	short_reuse_1	5			appearance/pt_heal_resist_states.prt	
 item_npe_static_shield_01_01					npeDefenseBuff	short_reuse_1	5			appearance/pt_heal_resist_states.prt	
@@ -99,31 +99,31 @@ item_npe_junk_palm_diary_01_01
 item_npe_junk_imitation_pearl_01_01											
 item_npe_junk_droid_circuitry_01_01											
 item_npe_schematic_meat_jerky_01_01			"string:loot_schematic.schematic=object/draft_schematic/food/dish_meat_jerky.iff,int:loot_schematic.uses=1,string:loot_schematic.skill_req=class_trader"								
-item_npe_hunting_necklace_01_01	luck_modified=3										
-item_npe_inaldras_bracelet_01_01	agility_modified=3										
-item_npe_smooth_slitherhorn_01_01	stamina_modified=3										
-item_npe_bandolier_rng_acc_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_bandolier_pistol_acc_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_bandolier_carbine_acc_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_bandolier_rifle_acc_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_belt_melee_acc_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_belt_unarmed_acc_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_belt_polearm_acc_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_belt_2h_acc_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_belt_1h_acc_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_ring_rng_speed_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_ring_pistol_speed_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_ring_carbine_speed_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_ring_rifle_speed_01_01	precision_modified=3									appearance/pt_heal.prt	
-item_npe_ring_melee_speed_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_ring_unarmed_speed_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_ring_polearm_speed_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_ring_2h_speed_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_ring_1h_speed_01_01	strength_modified=3									appearance/pt_heal.prt	
+item_npe_hunting_necklace_01_01	"luck_modified=10,creature_harvesting=5"										
+item_npe_inaldras_bracelet_01_01	"stamina_modified=10,ranged_accuracy=2,melee_accuracy=2"										
+item_npe_smooth_slitherhorn_01_01	"stamina_modified=10,agility_modified=10"										
+item_npe_bandolier_rng_acc_01_01	"precision_modified=5,ranged_accuracy=5"									appearance/pt_heal.prt	
+item_npe_bandolier_pistol_acc_01_01	"precision_modified=5,ranged_accuracy=5"									appearance/pt_heal.prt	
+item_npe_bandolier_carbine_acc_01_01	"precision_modified=5,ranged_accuracy=5"									appearance/pt_heal.prt	
+item_npe_bandolier_rifle_acc_01_01	"precision_modified=5,ranged_accuracy=5"									appearance/pt_heal.prt	
+item_npe_belt_melee_acc_01_01	"strength_modified=5,melee_accuracy=5"									appearance/pt_heal.prt	
+item_npe_belt_unarmed_acc_01_01	"strength_modified=5,melee_accuracy=5"									appearance/pt_heal.prt	
+item_npe_belt_polearm_acc_01_01	"strength_modified=5,melee_accuracy=5"									appearance/pt_heal.prt	
+item_npe_belt_2h_acc_01_01	"strength_modified=5,melee_accuracy=5"									appearance/pt_heal.prt	
+item_npe_belt_1h_acc_01_01	"strength_modified=5,melee_accuracy=5"									appearance/pt_heal.prt	
+item_npe_ring_rng_speed_01_01	"precision_modified=5,ranged_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_pistol_speed_01_01	"precision_modified=5,pistol_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_carbine_speed_01_01	"precision_modified=5,carbine_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_rifle_speed_01_01	"precision_modified=5,rifle_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_melee_speed_01_01	"strength_modified=5,melee_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_unarmed_speed_01_01	"strength_modified=5,unarmed_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_polearm_speed_01_01	"strength_modified=5,polearm_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_2h_speed_01_01	"strength_modified=5,twohandmelee_speed=1"									appearance/pt_heal.prt	
+item_npe_ring_1h_speed_01_01	"strength_modified=5,onehandmelee_speed=1"									appearance/pt_heal.prt	
 item_npe_bracelet_ter_neg_01_01					trivialSlopeMove					appearance/pt_heal.prt	
-item_npe_bracelet_unarmed_damage_01_01	strength_modified=3									appearance/pt_heal.prt	
-item_npe_bracelet_melee_defense_01_01	agility_modified=3									appearance/pt_heal.prt	
-item_npe_bracelet_rng_defense_01_01	agility_modified=3									appearance/pt_heal.prt	
+item_npe_bracelet_unarmed_damage_01_01	"strength_modified=5,expertise_damage_weapon_6=2"									appearance/pt_heal.prt	
+item_npe_bracelet_melee_defense_01_01	"agility_modified=5,melee_defense=1"									appearance/pt_heal.prt	
+item_npe_bracelet_rng_defense_01_01	"agility_modified=5,ranged_defense=1"									appearance/pt_heal.prt	
 item_npe_necklace_resists_01_01					trivialComboResist					appearance/pt_heal.prt	
 item_npe_necklace_heal_eff_01_01					trivialHealEfficiency					appearance/pt_heal.prt	
 item_npe_junk_creature_brain_01_01											
@@ -139,8 +139,8 @@ item_officer_ring_01_02	"constitution_modified=75,agility_modified=50,precision_
 item_medic_ring_01_02	"constitution_modified=50,agility_modified=50,precision_modified=75,luck_modified=40,expertise_buff_duration_line_me_enhance=7200"										
 item_spy_ring_01_02	"constitution_modified=50,agility_modified=50,precision_modified=40,luck_modified=75,expertise_critical_line_sp_dm=1,expertise_freeshot_sp_dm=1"										
 item_smuggler_ring_01_02	"constitution_modified=40,agility_modified=50,precision_modified=50,strength_modified=50,luck_modified=75,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"										
-item_entertainer_ring_01_02	"constitution_modified=50,agility_modified=75,precision_modified=40,strength_modified=50,luck_modified=50,expertise_damage_weapon_6=5,expertise_weapon_2=5"										
-item_trader_ring_01_02	"constitution_modified=50,agility_modified=50,precision_modified=40,luck_modified=75,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"		int:skillmod.bonus.hiring=5								
+item_entertainer_ring_01_02	"constitution_modified=50,agility_modified=75,precision_modified=40,strength_modified=50,stamina_modified=50,expertise_damage_weapon_6=3,expertise_weapon_2=3"										
+item_trader_ring_01_02	"constitution_modified=75,agility_modified=75,precision_modified=65,luck_modified=80,stamina_modified=70,armor_experimentation=15,armor_assembly=20,general_experimentation=15,general_assembly=20,droid_experimentation=15,droid_assembly=20,weapon_experimentation=15,weapon_assembly=20,food_experimentation=15,food_assembly=20,clothing_experimentation=15,clothing_assembly=20,structure_experimentation=15,structure_assembly=20,chassis_experimentation=15,chassis_assembly=20,weapon_systems_experimentation=15,engine_experimentation=15,engine_assembly=20,booster_experimentation=15,booster_assembly=20,power_systems_experimentation=15,shields_experimentation=15,shields_assembly=20,advanced_ship_experimentation=15,cybernetic_assembly=20,cybernetic_experimentation=15,factory_speed=15,expertise_resource_quality_increase=15,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"		int:skillmod.bonus.hiring=5								
 item_force_sensitive_backpack_01_02	"agility_modified=5,strength_modified=5"										
 item_bounty_hunter_backpack_01_02	"constitution_modified=25,agility_modified=25,precision_modified=40,luck_modified=20,stamina_modified=40,expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_damage_weapon_0=100"										
 item_commando_backpack_01_02	"constitution_modified=25,agility_modified=25,precision_modified=40,luck_modified=20,expertise_critical_line_co_dm=1,expertise_freeshot_co_dm=1"										
@@ -148,8 +148,8 @@ item_officer_backpack_01_02	"constitution_modified=40,agility_modified=25,precis
 item_medic_backpack_01_02	"constitution_modified=25,agility_modified=25,precision_modified=40,luck_modified=20,expertise_buff_duration_line_me_enhance=3600"										
 item_spy_backpack_01_02	"constitution_modified=25,agility_modified=25,precision_modified=20,luck_modified=40,expertise_critical_line_sp_dm=1,expertise_freeshot_sp_dm=1"										
 item_smuggler_backpack_01_02	"constitution_modified=20,agility_modified=25,precision_modified=25,strength_modified=25,luck_modified=40,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"										
-item_entertainer_backpack_01_02	"constitution_modified=25,agility_modified=40,precision_modified=20,strength_modified=25,luck_modified=25,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"										
-item_trader_backpack_01_02	"constitution_modified=25,agility_modified=25,precision_modified=20,luck_modified=40,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"										
+item_entertainer_backpack_01_02	"constitution_modified=25,agility_modified=40,precision_modified=20,strength_modified=25,stamina_modified=25,expertise_damage_weapon_6=2,expertise_damage_weapon_2=2"										
+item_trader_backpack_01_02	"constitution_modified=10,agility_modified=10,precision_modified=5,luck_modified=10,stamina_modified=10,armor_experimentation=10,armor_assembly=10,general_experimentation=10,general_assembly=10,droid_experimentation=10,droid_assembly=10,weapon_experimentation=10,weapon_assembly=10,food_experimentation=10,food_assembly=10,clothing_experimentation=10,clothing_assembly=10,structure_experimentation=10,structure_assembly=10,chassis_experimentation=10,chassis_assembly=10,weapon_systems_experimentation=10,engine_experimentation=10,engine_assembly=10,booster_experimentation=10,booster_assembly=10,power_systems_experimentation=10,shields_experimentation=10,shields_assembly=10,advanced_ship_experimentation=10,cybernetic_assembly=10,cybernetic_experimentation=10,factory_speed=10,expertise_resource_quality_increase=10,incubation_time_reduction=10,bm_incubator_dps_armor=10,bm_mutation_chance_increase=10"										
 item_force_sensitive_pendant_01_02	"constitution_modified=100,agility_modified=75,strength_modified=150,luck_modified=75,precision_modified=75,stamina_modified=75,jedi_saber_assembly=20,jedi_saber_experimentation=20,expertise_damage_weapon_9=50,expertise_damage_weapon_10=50,expertise_damage_weapon_11=50"										
 item_bounty_hunter_pendant_01_02	"constitution_modified=100,agility_modified=100,precision_modified=150,luck_modified=75,stamina_modified=150,expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_damage_weapon_0=100,expertise_range_bonus_ranged=10"										
 item_commando_pendant_01_02	"constitution_modified=100,agility_modified=100,precision_modified=150,luck_modified=75,expertise_critical_line_co_dm=1,expertise_freeshot_co_dm=1"										
@@ -157,8 +157,8 @@ item_officer_pendant_01_02	"constitution_modified=150,agility_modified=100,preci
 item_medic_pendant_01_02	"constitution_modified=100,agility_modified=100,precision_modified=150,luck_modified=75,expertise_buff_duration_line_me_enhance=3600"										
 item_spy_pendant_01_02	"constitution_modified=100,agility_modified=100,precision_modified=75,luck_modified=150,expertise_critical_line_sp_dm=1,expertise_freeshot_sp_dm=1"										
 item_smuggler_pendant_01_02	"constitution_modified=75,agility_modified=100,precision_modified=100,strength_modified=100,luck_modified=150,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"										
-item_entertainer_pendant_01_02	"constitution_modified=100,agility_modified=150,precision_modified=75,strength_modified=100,luck_modified=100,expertise_damage_weapon_6=10,expertise_damage_weapon_2=10"		int:skillmod.bonus.prop_assembly=5								
-item_trader_pendant_01_02	"constitution_modified=100,agility_modified=100,precision_modified=75,luck_modified=150,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"		"constitution_modified=25,agility_modified=25,precision_modified=20,luck_modified=40,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"								
+item_entertainer_pendant_01_02	"constitution_modified=100,agility_modified=150,precision_modified=75,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=8,expertise_damage_weapon_2=8"		int:skillmod.bonus.prop_assembly=5								
+item_trader_pendant_01_02	"constitution_modified=150,agility_modified=150,precision_modified=100,luck_modified=150,stamina_modified=150,armor_experimentation=20,armor_assembly=25,general_experimentation=20,general_assembly=25,droid_experimentation=20,droid_assembly=25,weapon_experimentation=20,weapon_assembly=25,food_experimentation=20,food_assembly=25,clothing_experimentation=20,clothing_assembly=25,structure_experimentation=20,structure_assembly=25,chassis_experimentation=20,chassis_assembly=25,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=25,booster_experimentation=20,booster_assembly=25,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=25,advanced_ship_experimentation=20,cybernetic_assembly=25,cybernetic_experimentation=20,factory_speed=25,expertise_resource_quality_increase=25,incubation_time_reduction=25,bm_incubator_dps_armor=25,bm_mutation_chance_increase=25"		"constitution_modified=25,agility_modified=25,precision_modified=20,luck_modified=40,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"								
 item_force_sensitive_clicky_01_02					roadmapFsClicky	long_reuse_4	3600			appearance/pt_heal.prt	
 item_bounty_hunter_clicky_01_02					roadmapBhClicky	long_reuse_4	3600			appearance/pt_heal.prt	
 item_commando_clicky_01_02					roadmapCommandoClicky	long_reuse_4	3600			appearance/pt_heal.prt	
@@ -167,29 +167,29 @@ item_medic_clicky_01_02					roadmapMedicClicky	long_reuse_4	3600			appearance/pt
 item_spy_clicky_01_02					roadmapSpyClicky	long_reuse_4	3600			appearance/pt_heal.prt	
 item_smuggler_clicky_01_02					roadmapSmugglerClicky	long_reuse_4	3600			appearance/pt_heal.prt	
 item_entertainer_clicky_01_02					roadmapEntertainerClicky	long_reuse_4	3600			appearance/pt_heal.prt	
-item_trader_roadmap_jumpsuit_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=42,index_color_2=42"							
-item_trader_roadmap_boots_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=31,index_color_2=91"							
-item_trader_roadmap_gloves_02_01				index_color_1=31							
-item_trader_roadmap_jumpsuit_02_02	"agility_modified=2,constitution_modified=1"			"index_color_1=42,index_color_2=31"							
-item_trader_roadmap_hat_02_01	"agility_modified=2,constitution_modified=1"										
-item_trader_roadmap_shoulder_pad_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=56,index_color_2=31"							
-item_trader_roadmap_gloves_02_02	"agility_modified=2,constitution_modified=1"			"index_color_1=56,index_color_2=31"							
-item_force_sensitive_roadmap_gloves_02_01				index_color_1=31							
-item_force_sensitive_roadmap_pants_02_01	"tka_armor=2,constitution_modified=1"			"index_color_1=65,index_color_2=90"							
-item_force_sensitive_roadmap_shirt_02_01	"tka_armor=2,constitution_modified=1"			"index_color_1=65,index_color_2=90"							
-item_force_sensitive_roadmap_boots_02_01				"index_color_1=10,index_color_2=31"							
-item_force_sensitive_roadmap_jumpsuit_02_01	"tka_armor=2,constitution_modified=1"			"index_color_1=65,index_color_2=90"							
-item_force_sensitive_roadmap_hat_02_01	"tka_armor=2,constitution_modified=1"										
-item_force_sensitive_roadmap_shoulder_pad_02_01	"tka_armor=2,constitution_modified=1"			"index_color_1=38,index_color_2=3"							
-item_force_sensitive_roadmap_gloves_02_02	"tka_armor=2,constitution_modified=1"			"index_color_1=38,index_color_2=3"							
-item_entertainer_roadmap_cloak_02_01	"agility_modified=2,constitution_modified=1"			index_color_1=0							
-item_entertainer_roadmap_boots_02_01				"index_color_1=0,index_color_2=0"							
-item_entertainer_roadmap_gloves_02_01				"index_color_1=0,index_color_2=0"							
-item_entertainer_roadmap_pants_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=216,index_color_2=77"							
-item_entertainer_roadmap_jumpsuit_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=0,index_color_2=216"							
-item_entertainer_roadmap_hat_02_01	"agility_modified=2,constitution_modified=1"										
-item_entertainer_roadmap_robe_02_01	"agility_modified=2,constitution_modified=1"			"index_color_1=19,index_color_2=4"							
-item_entertainer_roadmap_gloves_02_02	"agility_modified=2,constitution_modified=1"			"index_color_1=19,index_color_2=4"							
+item_trader_roadmap_jumpsuit_02_01	"constitution_modified=15,agility_modified=15,precision_modified=15,luck_modified=15,stamina_modified=15,armor_experimentation=15,armor_assembly=15,general_experimentation=15,general_assembly=15,droid_experimentation=15,droid_assembly=15,weapon_experimentation=15,weapon_assembly=15,food_experimentation=15,food_assembly=15,clothing_experimentation=15,clothing_assembly=15,structure_experimentation=15,structure_assembly=15,chassis_experimentation=15,chassis_assembly=15,weapon_systems_experimentation=15,engine_experimentation=15,engine_assembly=15,booster_experimentation=15,booster_assembly=15,power_systems_experimentation=15,shields_experimentation=15,shields_assembly=15,advanced_ship_experimentation=15,cybernetic_assembly=15,cybernetic_experimentation=15,factory_speed=15,expertise_resource_quality_increase=15,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"			"index_color_1=42,index_color_2=42"							
+item_trader_roadmap_boots_02_01	"constitution_modified=10,agility_modified=10,precision_modified=10,luck_modified=10,stamina_modified=10,armor_experimentation=10,armor_assembly=10,general_experimentation=10,general_assembly=10,droid_experimentation=10,droid_assembly=10,weapon_experimentation=10,weapon_assembly=10,food_experimentation=10,food_assembly=10,clothing_experimentation=10,clothing_assembly=10,structure_experimentation=10,structure_assembly=10,chassis_experimentation=10,chassis_assembly=10,weapon_systems_experimentation=10,engine_experimentation=10,engine_assembly=10,booster_experimentation=10,booster_assembly=10,power_systems_experimentation=10,shields_experimentation=10,shields_assembly=10,advanced_ship_experimentation=10,cybernetic_assembly=10,cybernetic_experimentation=10,factory_speed=10,expertise_resource_quality_increase=10,incubation_time_reduction=10,bm_incubator_dps_armor=10,bm_mutation_chance_increase=10"			"index_color_1=31,index_color_2=91"							
+item_trader_roadmap_gloves_02_01	"constitution_modified=10,agility_modified=10,precision_modified=10,luck_modified=10,stamina_modified=10,armor_experimentation=10,armor_assembly=10,general_experimentation=10,general_assembly=10,droid_experimentation=10,droid_assembly=10,weapon_experimentation=10,weapon_assembly=10,food_experimentation=10,food_assembly=10,clothing_experimentation=10,clothing_assembly=10,structure_experimentation=10,structure_assembly=10,chassis_experimentation=10,chassis_assembly=10,weapon_systems_experimentation=10,engine_experimentation=10,engine_assembly=10,booster_experimentation=10,booster_assembly=10,power_systems_experimentation=10,shields_experimentation=10,shields_assembly=10,advanced_ship_experimentation=10,cybernetic_assembly=10,cybernetic_experimentation=10,factory_speed=10,expertise_resource_quality_increase=10,incubation_time_reduction=10,bm_incubator_dps_armor=10,bm_mutation_chance_increase=10"			index_color_1=31							
+item_trader_roadmap_jumpsuit_02_02	"constitution_modified=10,agility_modified=10,precision_modified=10,luck_modified=10,stamina_modified=10,armor_experimentation=10,armor_assembly=10,general_experimentation=10,general_assembly=10,droid_experimentation=10,droid_assembly=10,weapon_experimentation=10,weapon_assembly=10,food_experimentation=10,food_assembly=10,clothing_experimentation=10,clothing_assembly=10,structure_experimentation=10,structure_assembly=10,chassis_experimentation=10,chassis_assembly=10,weapon_systems_experimentation=10,engine_experimentation=10,engine_assembly=10,booster_experimentation=10,booster_assembly=10,power_systems_experimentation=10,shields_experimentation=10,shields_assembly=10,advanced_ship_experimentation=10,cybernetic_assembly=10,cybernetic_experimentation=10,factory_speed=10,expertise_resource_quality_increase=10,incubation_time_reduction=10,bm_incubator_dps_armor=10,bm_mutation_chance_increase=10"			"index_color_1=42,index_color_2=31"							
+item_trader_roadmap_hat_02_01	"constitution_modified=10,agility_modified=10,precision_modified=10,luck_modified=10,stamina_modified=10,armor_experimentation=10,armor_assembly=10,general_experimentation=10,general_assembly=10,droid_experimentation=10,droid_assembly=10,weapon_experimentation=10,weapon_assembly=10,food_experimentation=10,food_assembly=10,clothing_experimentation=10,clothing_assembly=10,structure_experimentation=10,structure_assembly=10,chassis_experimentation=10,chassis_assembly=10,weapon_systems_experimentation=10,engine_experimentation=10,engine_assembly=10,booster_experimentation=10,booster_assembly=10,power_systems_experimentation=10,shields_experimentation=10,shields_assembly=10,advanced_ship_experimentation=10,cybernetic_assembly=10,cybernetic_experimentation=10,factory_speed=10,expertise_resource_quality_increase=10,incubation_time_reduction=10,bm_incubator_dps_armor=10,bm_mutation_chance_increase=10"										
+item_trader_roadmap_shoulder_pad_02_01	"constitution_modified=30,agility_modified=30,precision_modified=20,luck_modified=40,stamina_modified=30,armor_experimentation=30,armor_assembly=30,general_experimentation=30,general_assembly=30,droid_experimentation=30,droid_assembly=30,weapon_experimentation=30,weapon_assembly=30,food_experimentation=30,food_assembly=30,clothing_experimentation=30,clothing_assembly=30,structure_experimentation=30,structure_assembly=30,chassis_experimentation=30,chassis_assembly=30,weapon_systems_experimentation=30,engine_experimentation=30,engine_assembly=30,booster_experimentation=30,booster_assembly=30,power_systems_experimentation=30,shields_experimentation=30,shields_assembly=30,advanced_ship_experimentation=30,cybernetic_assembly=30,cybernetic_experimentation=30,factory_speed=30,expertise_resource_quality_increase=30,incubation_time_reduction=30,bm_incubator_dps_armor=30,bm_mutation_chance_increase=30"			"index_color_1=56,index_color_2=31"							
+item_trader_roadmap_gloves_02_02	"constitution_modified=30,agility_modified=30,precision_modified=20,luck_modified=40,stamina_modified=30,armor_experimentation=30,armor_assembly=30,general_experimentation=30,general_assembly=30,droid_experimentation=30,droid_assembly=30,weapon_experimentation=30,weapon_assembly=30,food_experimentation=30,food_assembly=30,clothing_experimentation=30,clothing_assembly=30,structure_experimentation=30,structure_assembly=30,chassis_experimentation=30,chassis_assembly=30,weapon_systems_experimentation=30,engine_experimentation=30,engine_assembly=30,booster_experimentation=30,booster_assembly=30,power_systems_experimentation=30,shields_experimentation=30,shields_assembly=30,advanced_ship_experimentation=30,cybernetic_assembly=30,cybernetic_experimentation=30,factory_speed=30,expertise_resource_quality_increase=30,incubation_time_reduction=30,bm_incubator_dps_armor=30,bm_mutation_chance_increase=30"			"index_color_1=56,index_color_2=31"							
+item_force_sensitive_roadmap_gloves_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			index_color_1=31							
+item_force_sensitive_roadmap_pants_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=65,index_color_2=90"							
+item_force_sensitive_roadmap_shirt_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=65,index_color_2=90"							
+item_force_sensitive_roadmap_boots_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=10,index_color_2=31"							
+item_force_sensitive_roadmap_jumpsuit_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=65,index_color_2=90"							
+item_force_sensitive_roadmap_hat_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"										
+item_force_sensitive_roadmap_shoulder_pad_02_01	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=38,index_color_2=3"							
+item_force_sensitive_roadmap_gloves_02_02	"tka_armor=2,constitution_modified=5,strength_modified=5,agility_modified=5"			"index_color_1=38,index_color_2=3"							
+item_entertainer_roadmap_cloak_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			index_color_1=0							
+item_entertainer_roadmap_boots_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=0,index_color_2=0"							
+item_entertainer_roadmap_gloves_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=0,index_color_2=0"							
+item_entertainer_roadmap_pants_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=216,index_color_2=77"							
+item_entertainer_roadmap_jumpsuit_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=0,index_color_2=216"							
+item_entertainer_roadmap_hat_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"										
+item_entertainer_roadmap_robe_02_01	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=19,index_color_2=4"							
+item_entertainer_roadmap_gloves_02_02	"constitution_modified=100,agility_modified=100,precision_modified=90,strength_modified=100,stamina_modified=100,expertise_damage_weapon_6=5,expertise_damage_weapon_2=5"			"index_color_1=19,index_color_2=4"							
 item_roadmap_belt_force_sensitive_01_02	"constitution_modified=200,agility_modified=150,strength_modified=300,luck_modified=150,precision_modified=150,stamina_modified=150,jedi_saber_assembly=30,jedi_saber_experimentation=30,expertise_damage_weapon_9=100,expertise_damage_weapon_10=100,expertise_damage_weapon_11=100"									appearance/pt_heal.prt	
 item_roadmap_belt_bounty_hunter_01_02	"constitution_modified=200,agility_modified=200,precision_modified=300,luck_modified=150,stamina_modified=200,expertise_action_line_dm=3,expertise_action_line_dm_crit=3,expertise_damage_weapon_0=100,expertise_range_bonus_ranged=10"									appearance/pt_heal.prt	
 item_roadmap_belt_commando_01_02	"constitution_modified=200,agility_modified=200,precision_modified=300,luck_modified=150,stamina_modified=200,expertise_critical_line_co_dm=3,expertise_freeshot_co_dm=3"									appearance/pt_heal.prt	
@@ -197,8 +197,8 @@ item_roadmap_belt_officer_01_02	"constitution_modified=300,agility_modified=200,
 item_roadmap_belt_medic_01_02	"constitution_modified=200,agility_modified=200,precision_modified=300,luck_modified=150,expertise_buff_duration_line_me_enhance=3600"									appearance/pt_heal.prt	
 item_roadmap_belt_spy_01_02	"constitution_modified=200,agility_modified=200,precision_modified=300,strength_modified=200,luck_modified=300,expertise_critical_line_sp_dm=3,expertise_freeshot_sp_dm=3"									appearance/pt_heal.prt	
 item_roadmap_belt_smuggler_01_02	"constitution_modified=150,agility_modified=200,precision_modified=200,strength_modified=200,luck_modified=300,expertise_freeshot_sm_dm=3,expertise_cooldown_line_sm_dm=3"									appearance/pt_heal.prt	
-item_roadmap_belt_entertainer_01_02	"constitution_modified=200,agility_modified=300,precision_modified=150,strength_modified=200,luck_modified=200,expertise_damage_weapon_6=10,expertise_damage_weapon_2=10"									appearance/pt_heal.prt	
-item_roadmap_belt_trader_01_02	"constitution_modified=200,agility_modified=200,precision_modified=150,luck_modified=300,armor_experimentation=30,armor_assembly=30,general_experimentation=30,general_assembly=30,droid_experimentation=30,droid_assembly=30,weapon_experimentation=30,weapon_assembly=30,food_experimentation=30,food_assembly=30,clothing_experimentation=30,clothing_assembly=30,structure_experimentation=30,structure_assembly=30,chassis_experimentation=30,chassis_assembly=30,weapon_systems_experimentation=30,engine_experimentation=30,engine_assembly=30,booster_experimentation=30,booster_assembly=30,power_systems_experimentation=30,shields_experimentation=30,shields_assembly=30,advanced_ship_experimentation=30,cybernetic_assembly=30,cybernetic_experimentation=30,factory_speed=100,expertise_resource_quality_increase=50,incubation_time_reduction=25,bm_incubator_dps_armor=25,bm_mutation_chance_increase=25"									appearance/pt_heal.prt	
+item_roadmap_belt_entertainer_01_02	"constitution_modified=200,agility_modified=200,precision_modified=150,strength_modified=200,stamina_modified=200,expertise_damage_weapon_6=9,expertise_damage_weapon_2=9"									appearance/pt_heal.prt	
+item_roadmap_belt_trader_01_02	"constitution_modified=200,agility_modified=200,precision_modified=150,luck_modified=300,stamina_modified=200,armor_experimentation=30,armor_assembly=30,general_experimentation=30,general_assembly=30,droid_experimentation=30,droid_assembly=30,weapon_experimentation=30,weapon_assembly=30,food_experimentation=30,food_assembly=30,clothing_experimentation=30,clothing_assembly=30,structure_experimentation=30,structure_assembly=30,chassis_experimentation=30,chassis_assembly=30,weapon_systems_experimentation=30,engine_experimentation=30,engine_assembly=30,booster_experimentation=30,booster_assembly=30,power_systems_experimentation=30,shields_experimentation=30,shields_assembly=30,advanced_ship_experimentation=30,cybernetic_assembly=30,cybernetic_experimentation=30,factory_speed=100,expertise_resource_quality_increase=50,incubation_time_reduction=25,bm_incubator_dps_armor=25,bm_mutation_chance_increase=25"									appearance/pt_heal.prt	
 item_npe_junk_tooth_01_01											
 item_npe_junk_lizard_scale_01_01											
 item_npe_junk_feather_01_01											
@@ -681,12 +681,12 @@ item_content_charged_proc_cold_02_01					proc_content_charged_proc_cold	short_re
 item_content_schematic_psg_borvo_02_01			"string:loot_schematic.schematic=object/draft_schematic/armor/shield_generator_personal_borvo.iff,int:loot_schematic.uses=25,string:loot_schematic.skill_req=class_munitions_phase4_master"								
 item_content_schematic_psg_droideka_02_01			"string:loot_schematic.schematic=object/draft_schematic/armor/shield_generator_personal_droideka.iff,int:loot_schematic.uses=25,string:loot_schematic.skill_req=class_munitions_phase4_master"								
 item_content_veh_custom_kit_02_01											
-item_content_boots_ter_neg_02_01	luck_modified=8										
-item_content_clothing_thranta_boots_02_01	"agility_modified=2,constitution_modified=4"										
-item_content_clothing_thranta_bracelet_l_02_01	constitution_modified=4										
-item_content_clothing_thranta_shirt_02_01	"agility_modified=2,constitution_modified=4"										
-item_content_clothing_thranta_pants_02_01	"agility_modified=2,constitution_modified=4"										
-item_content_clothing_thranta_bracelet_r_02_01	constitution_modified=4										
+item_content_boots_ter_neg_02_01	"luck_modified=10,slope_move=10"										
+item_content_clothing_thranta_boots_02_01	"agility_modified=10,constitution_modified=10"										
+item_content_clothing_thranta_bracelet_l_02_01	constitution_modified=10										
+item_content_clothing_thranta_shirt_02_01	"agility_modified=10,constitution_modified=10"										
+item_content_clothing_thranta_pants_02_01	"agility_modified=10,constitution_modified=10"										
+item_content_clothing_thranta_bracelet_r_02_01	constitution_modified=10										
 item_content_combo_speed_02_01					contentChargedComboSpeed						
 item_food_edible_jar_berries_02_01			string:buff_name=foraged_berries								
 item_food_edible_jar_bugs_02_01			string:buff_name=foraged_bugs								
@@ -702,16 +702,16 @@ item_food_foraged_vegetable_02_02			string:buff_name=foraged_vegetable_2
 item_food_foraged_vegetable_02_03			string:buff_name=foraged_vegetable_3								
 item_food_foraged_vegetable_02_04			string:buff_name=foraged_vegetable_4								
 item_food_foraged_vegetable_02_05			string:buff_name=foraged_vegetable_5								
-item_content_thranta_sunguard_03_01	"constitution_modified=6,precision_modified=5,strength_modified=5"										
-item_content_thranta_necklace_03_01	"constitution_modified=6,precision_modified=5,strength_modified=5"										
-item_npe_bracelet_assembly_01_01			int:skillmod.bonus.general_assembly=2								
-item_npe_bracelet_fs_01_01	agility_modified=1										
-item_npe_trando_necklace_01_01	agility_modified=1										
+item_content_thranta_sunguard_03_01	"constitution_modified=10,precision_modified=5,strength_modified=5"										
+item_content_thranta_necklace_03_01	"constitution_modified=10,precision_modified=5,strength_modified=5"										
+item_npe_bracelet_assembly_01_01	"constitution_modified=5,agility_modified=5,stamina_modified=5,luck_modified=5"		int:skillmod.bonus.general_assembly=5								
+item_npe_bracelet_fs_01_01	"constitution_modified=5,agility_modified=5,strength_modified=5,luck_modified=5,precision_modified=5,stamina_modified=5,jedi_saber_assembly=10,jedi_saber_experimentation=5"										
+item_npe_trando_necklace_01_01	agility_modified=5										
 item_npe_tatooine_bug_juice_01_01					npeBugJuice	short_reuse_4	5				
 item_npe_medic_bracelet_01_01	stamina_modified=2										
-item_content_shirt_rng_def_03_01	agility_modified=5										
-item_content_bracelet_rng_acc_03_01	precision_modified=5										
-item_content_pants_rng_def_02_01	agility_modified=5										
+item_content_shirt_rng_def_03_01	"agility_modified=5,ranged_defense=1"										
+item_content_bracelet_rng_acc_03_01	"precision_modified=5,ranged_accurace=1"										
+item_content_pants_rng_def_02_01	"agility_modified=5,ranged_defense=1"										
 item_content_imperial_combo_speed_04_01				index_color_1=30	contentChargedComboSpeed_2	short_reuse_4	5				
 item_content_rebel_combo_speed_04_01				index_color_1=30	contentChargedComboSpeed_2	short_reuse_4	5				
 item_content_charged_proc_melee_poison_03_01					proc_content_charged_proc_melee_poison_1	short_reuse_4	5				
@@ -722,20 +722,20 @@ item_content_charged_stamina_03_01					contentChargedStamina_1	short_reuse_3	5
 item_content_charged_willpower_03_01					contentChargedWill_1	short_reuse_3	5				
 item_content_charged_health_stam_will_03_01					contentChargedHealthActionWill_1	short_reuse_3	5				
 item_content_binocs_detection_03_01					contentClickDetectionAcc	long_reuse_4	180				
-item_content_hat_rng_def_03_01	agility_modified=5										
-item_content_jacket_rng_defense_03_01	agility_modified=5										
-item_content_gloves_rng_acc_03_01	precision_modified=5										
+item_content_hat_rng_def_03_01	"agility_modified=5,ranged_defense=1"										
+item_content_jacket_rng_defense_03_01	"agility_modified=5,ranged_defense=1"										
+item_content_gloves_rng_acc_03_01	"precision_modified=5,ranged_accurace=1"										
 item_content_decor_hologram_disk_03_01											
 item_tow_cystal_buff_drained_05_01					crystal_buff_drained	tow_finale	900				
-item_content_smuggler_shirt_03_01	agility_modified=4			index_color_1=6							
-item_content_smuggler_pants_03_01	agility_modified=4			"index_color_1=13,index_color_2=42"							
-item_content_bh_shirt_03_01	agility_modified=4			"index_color_1=141,index_color_2=7"							
-item_content_bh_pants_03_01	agility_modified=4			"index_color_1=100,index_color_2=111"							
-item_content_spy_shirt_03_01	agility_modified=4			index_color_1=90							
-item_content_spy_pants_03_01	agility_modified=4			"index_color_1=3,index_color_2=3"							
-item_content_officer_shirt_03_01	agility_modified=4			index_color_1=42							
-item_content_officer_pants_03_01	agility_modified=4			index_color_1=42							
-item_content_commando_shirt_03_01	agility_modified=4			index_color_1=194							
+item_content_smuggler_shirt_03_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			index_color_1=6							
+item_content_smuggler_pants_03_01	"constitution_modified=5,agility_modified=5,precision_modified=5,strength_modified=5,luck_modified=5,expertise_freeshot_sm_dm=1,expertise_cooldown_line_sm_dm=1"			"index_color_1=13,index_color_2=42"							
+item_content_bh_shirt_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			"index_color_1=141,index_color_2=7"							
+item_content_bh_pants_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			"index_color_1=100,index_color_2=111"							
+item_content_spy_shirt_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			index_color_1=90							
+item_content_spy_pants_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			"index_color_1=3,index_color_2=3"							
+item_content_officer_shirt_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			index_color_1=42							
+item_content_officer_pants_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			index_color_1=42							
+item_content_commando_shirt_03_01	"agility_modified=5,ranged_defense=1,melee_defense=1,strength_modified=5"			index_color_1=194							
 item_tatooine_junk_bantha_01_01											
 item_tatooine_junk_bocatt_01_01											
 item_tatooine_junk_bull_bantha_01_01											
@@ -1151,14 +1151,14 @@ item_power_crystal_04_21			"int:jedi.crystal.stats.min_dmg=23,int:jedi.crystal.s
 item_power_crystal_04_99			"int:jedi.crystal.stats.min_dmg=100000,int:jedi.crystal.stats.max_dmg=100000,int:jedi.crystal.stats.quality=7,int:jedi.crystal.stats.level=-1"	index_color_1=31							
 item_npe_dance_prop_l_entertainer_02_01			int:nocert=1								
 item_npe_dance_prop_r_entertainer_02_01			int:nocert=1								
-item_npe_necklace_protection_02_01	agility_modified=3										
+item_npe_necklace_protection_02_01	"constitution_modified=5,stamina_modified=5,agility_modified=5,precision_modified=5,melee_defense=1,ranged_defense=1"										
 item_npe_gen_craft_tool_trader_03_01	general_assembly=5		"int:crafting.tool=1,int:crafting.type=4096,float:prototypeTime=0.0"								
 item_respec_token_01_01											
 item_npe_uniform_crate_01_01											
-item_content_medic_ring_03_01	constitution_modified=5										
+item_content_medic_ring_03_01	"constitution_modified=5,stamina_modified=5,luck_modified=5,healing_ability=2,ranged_defense=1,melee_defense=2"										
 item_content_trader_ring_03_01	"constitution_modified=50,agility_modified=50,precision_modified=40,luck_modified=75,armor_experimentation=20,armor_assembly=20,general_experimentation=20,general_assembly=20,droid_experimentation=20,droid_assembly=20,weapon_experimentation=20,weapon_assembly=20,food_experimentation=20,food_assembly=20,clothing_experimentation=20,clothing_assembly=20,structure_experimentation=20,structure_assembly=20,chassis_experimentation=20,chassis_assembly=20,weapon_systems_experimentation=20,engine_experimentation=20,engine_assembly=20,booster_experimentation=20,booster_assembly=20,power_systems_experimentation=20,shields_experimentation=20,shields_assembly=20,advanced_ship_experimentation=20,cybernetic_assembly=20,cybernetic_experimentation=20,factory_speed=50,expertise_resource_quality_increase=25,incubation_time_reduction=15,bm_incubator_dps_armor=15,bm_mutation_chance_increase=15"										
-item_content_instrument_bandfill_03_01	stamina_modified=5										
-item_content_dance_prop_03_01	stamina_modified=5										
+item_content_instrument_bandfill_03_01	"stamina_modified=5,agility_modified=5"										
+item_content_dance_prop_03_01	"stamina_modified=5,agility_modified=5"										
 item_junk_creature_1thru10_01_01											
 item_junk_creature_1thru10_01_02											
 item_junk_creature_1thru10_01_03											
@@ -2024,7 +2024,7 @@ item_consumable_drop_lck_lvl50_01_02					lckConsumable30	short_reuse_4	5	50
 item_consumable_drop_lck_lvl60_01_02					lckConsumable35	short_reuse_4	5	60			
 item_consumable_drop_lck_lvl70_01_02					lckConsumable40	short_reuse_4	5	70			
 item_consumable_drop_lck_lvl80_01_02					lckConsumable45	short_reuse_4	5	80			
-item_npe_fs_robe_02_01	agility_modified=10										
+item_npe_fs_robe_02_01	"constitution_modified=5,agility_modified=5,strength_modified=5,luck_modified=5,precision_modified=5,stamina_modified=5,jedi_saber_assembly=2,jedi_saber_experimentation=5"		int:armor.general_protection_clothing=1500								
 item_clothing_belt_agi_lvl1_02_01	agility_modified=1										
 item_clothing_belt_sta_lvl1_02_01	stamina_modified=1										
 item_clothing_belt_con_lvl1_02_01	constitution_modified=1										
@@ -2132,7 +2132,7 @@ item_junk_imitation_pearl_01_02
 item_deed_landspeeder_x38_02_01			string:vehicle_attribs.object_ref=xp38								
 item_content_veh_custom_kit_02_02											
 item_development_combat_test_ring_06_01	"stamina_modified=200,agility_modified=200,constitution_modified=200,strength_modified=200,precision_modified=200,luck_modified=200"										
-item_npe_fs_robe_02_02	constitution_modified=21		int:armor.general_protection_clothing=1400								
+item_npe_fs_robe_02_02	"constitution_modified=10,agility_modified=10,strength_modified=10,luck_modified=10,precision_modified=10,stamina_modified=10,jedi_saber_assembly=5,jedi_saber_experimentation=5"		int:armor.general_protection_clothing=2500								
 item_force_sensitive_ring_02_01	"constitution_modified=25,agility_modified=20,strength_modified=35,luck_modified=20,precision_modified=20,stamina_modified=20,jedi_saber_assembly=10,jedi_saber_experimentation=10,expertise_damage_weapon_9=5,expertise_damage_weapon_10=5,expertise_damage_weapon_11=5"										
 item_jedi_robe_light_03_01	"constitution_modified=100,strength_modified=100"		"int:armor.general_protection_clothing=3000,int:item.set.set_id=90001"								
 item_jedi_robe_dark_03_01	"constitution_modified=100,precision_modified=100"		"int:armor.general_protection_clothing=3000,int:item.set.set_id=90001"								
@@ -2169,7 +2169,7 @@ item_pub28_meat_pie_02_01					pub28MeatPie	short_reuse_4	5
 item_pub28_corsec_ring_02_01	"constitution_modified=9,strength_modified=9"										
 item_pub28_corsec_ring_02_02	"agility_modified=9,precision_modified=9"										
 item_pub28_corsec_ring_02_03	"luck_modified=9,constitution_modified=9"										
-item_content_stimpack_high_03_01			"int:healing.power=4500,int:healing.combat_level_required=30"								
+item_content_stimpack_high_03_01			"int:healing.power=7000,int:healing.combat_level_required=30"								
 item_content_bubble_tank_03_01											
 item_content_shisa_02_01											
 item_content_ring_lvl33_02_01	"precision_modified=10,strength_modified=10"										
@@ -2186,7 +2186,7 @@ item_content_slaver_wke_hood_04_01	"agility_modified=10,precision_modified=10,st
 item_content_slaver_hat_04_01	"agility_modified=10,precision_modified=10,stamina_modified=10"			"index_color_1=6,index_color_2=0"							
 item_content_slaver_ith_hat_04_01	"agility_modified=10,precision_modified=10,stamina_modified=10"			"index_color_1=30,index_color_2=31"							
 item_content_slaver_twk_hat_04_01	"agility_modified=10,precision_modified=10,stamina_modified=10"			"index_color_1=48,index_color_2=55"							
-item_content_stimpack_high_04_01			"int:healing.power=4500,int:healing.combat_level_required=30"								
+item_content_stimpack_high_04_01			"int:healing.power=7000,int:healing.combat_level_required=30"								
 item_content_binocs_detection_03_02					contentClickDetectionAcc2	long_reuse_4	1800				
 item_content_selonian_psg_04_01					selonianPSG	long_reuse_3	3600	40			
 item_content_selonian_necklace_04_01	stamina_modified=22										
