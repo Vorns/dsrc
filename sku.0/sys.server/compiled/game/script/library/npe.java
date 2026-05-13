@@ -590,10 +590,20 @@ public class npe extends script.base_script
         }
         else if (pSpecies == SPECIES_ITHORIAN)
         {
-            theSet.add(static_item.createNewItemFunction("item_ithorian_shirt_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_ithorian_pants_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_ithorian_vest_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_ithorian_gloves_02_01", pInv));
+	    if (utils.isProfession(player, utils.TRADER))
+	     {
+	    	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_shirt_01_01", pInv));
+            	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_pants_01_01", pInv));
+            	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_vest_01_01", pInv));
+            	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_gloves_01_01", pInv));
+	     }
+	    	else
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_shirt_02_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_pants_02_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_vest_02_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_gloves_02_01", pInv));
+	    	 }
         }
         else if (utils.isProfession(player, utils.SMUGGLER))
         {
