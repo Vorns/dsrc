@@ -597,7 +597,56 @@ public class npe extends script.base_script
             	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_vest_01_01", pInv));
             	theSet.add(static_item.createNewItemFunction("item_ithorian_trader_gloves_01_01", pInv));
 	     }
-	    	else
+	    	else if (utils.isProfession(player, utils.OFFICER))
+		  {
+			theSet.add(static_item.createNewItemFunction("item_ithorian_officer_shirt_01_01", pInv));
+			theSet.add(static_item.createNewItemFunction("item_ithorian_officer_pants_01_01", pInv)); 	
+			theSet.add(static_item.createNewItemFunction("item_ithorian_officer_vest_01_01", pInv));
+			theSet.add(static_item.createNewItemFunction("item_ithorian_officer_gloves_01_01", pInv));
+		  }
+		else if (utils.isProfession(player, utils.MEDIC))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_medic_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_medic_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_medic_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_medic_gloves_01_01", pInv));
+	    	 }
+		else if (utils.isProfession(player, utils.SMUGGLER))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_smuggler_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_smuggler_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_smuggler_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_smuggler_gloves_01_01", pInv));
+	    	 }
+		else if (utils.isProfession(player, utils.BOUNTY_HUNTER))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_bounty_hunter_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_bounty_hunter_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_bounty_hunter_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_bounty_hunter_gloves_01_01", pInv));
+	    	 }
+		else if (utils.isProfession(player, utils.COMMANDO))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_commando_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_commando_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_commando_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_commando_gloves_01_01", pInv));
+	    	 }
+		else if (utils.isProfession(player, utils.ENTERTAINER))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_entertainer_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_entertainer_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_entertainer_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_entertainer_gloves_01_01", pInv));
+	    	 }
+		else if (utils.isProfession(player, utils.SPY))
+	    	 {
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_spy_shirt_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_spy_pants_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_spy_vest_01_01", pInv));
+            		theSet.add(static_item.createNewItemFunction("item_ithorian_spy_gloves_01_01", pInv));
+	    	 }
+		else
 	    	 {
             		theSet.add(static_item.createNewItemFunction("item_ithorian_shirt_02_01", pInv));
             		theSet.add(static_item.createNewItemFunction("item_ithorian_pants_02_01", pInv));
