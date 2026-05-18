@@ -8600,3 +8600,35 @@ item_ithorian_spy_shirt_01_01	object/tangible/wearables/ithorian/ith_shirt_s09.i
 item_ithorian_spy_pants_01_01	object/tangible/wearables/ithorian/ith_pants_s19.iff							2	45			1	Issued Ithorian Spy Pants	A piece of issued spy clothing designed for Ithorians.	npe clothing
 item_ithorian_spy_vest_01_01	object/tangible/wearables/ithorian/ith_vest_s02.iff							2	45			1	Issued Ithorian Spy Vest	A piece of issued spy clothing designed for Ithorians.	npe clothing
 item_ithorian_spy_gloves_01_01	object/tangible/wearables/ithorian/ith_gloves_s02.iff							2	45			1	Issued Ithorian Spy Gloves	A piece of issued spy clothing designed for Ithorians.	npe clothing
+item_wookiee_trader_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Trader Tunic	A piece of issued trader clothing designed for Wookiees.	npe clothing
+item_wookiee_trader_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Trader Skirt	A piece of issued trader clothing designed for Wookiees.	npe clothing
+item_wookiee_trader_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Trader Hat	A piece of issued trader clothing designed for Wookiees.	npe clothing
+item_wookiee_trader_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Trader Gloves	A piece of issued trader clothing designed for Wookiees.	npe clothing
+item_wookiee_smuggler_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Smuggler Tunic	A piece of issued smuggler clothing designed for Wookiees.	npe clothing
+item_wookiee_smuggler_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Smuggler Skirt	A piece of issued smuggler clothing designed for Wookiees.	npe clothing
+item_wookiee_smuggler_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Smuggler Hat	A piece of issued smuggler clothing designed for Wookiees.	npe clothing
+item_wookiee_smuggler_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Smuggler Gloves	A piece of issued smuggler clothing designed for Wookiees.	npe clothing
+item_wookiee_bounty_hunter_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Bounty Hunter Tunic	A piece of issued bounty hunter clothing designed for Wookiees.	npe clothing
+item_wookiee_bounty_hunter_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Bounty Hunter Skirt	A piece of issued bounty hunter clothing designed for Wookiees.	npe clothing
+item_wookiee_bounty_hunter_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Bounty Hunter Hat	A piece of issued bounty hunter clothing designed for Wookiees.	npe clothing
+item_wookiee_bounty_hunter_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Bounty Hunter Gloves	A piece of issued bounty hunter clothing designed for Wookiees.	npe clothing
+item_wookiee_officer_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Officer Tunic	A piece of issued officer clothing designed for Wookiees.	npe clothing
+item_wookiee_officer_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Officer Skirt	A piece of issued officer clothing designed for Wookiees.	npe clothing
+item_wookiee_officer_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Officer Hat	A piece of issued officer clothing designed for Wookiees.	npe clothing
+item_wookiee_officer_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Officer Gloves	A piece of issued officer clothing designed for Wookiees.	npe clothing
+item_wookiee_commando_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Commando Tunic	A piece of issued commando clothing designed for Wookiees.	npe clothing
+item_wookiee_commando_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Commando Skirt	A piece of issued commando clothing designed for Wookiees.	npe clothing
+item_wookiee_commando_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Commando Hat	A piece of issued commando clothing designed for Wookiees.	npe clothing
+item_wookiee_commando_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Commando Gloves	A piece of issued commando clothing designed for Wookiees.	npe clothing
+item_wookiee_medic_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Medic Tunic	A piece of issued medic clothing designed for Wookiees.	npe clothing
+item_wookiee_medic_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Medic Skirt	A piece of issued medic clothing designed for Wookiees.	npe clothing
+item_wookiee_medic_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Medic Hat	A piece of issued medic clothing designed for Wookiees.	npe clothing
+item_wookiee_medic_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Medic Gloves	A piece of issued medic clothing designed for Wookiees.	npe clothing
+item_wookiee_spy_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Spy Tunic	A piece of issued spy clothing designed for Wookiees.	npe clothing
+item_wookiee_spy_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Spy Skirt	A piece of issued spy clothing designed for Wookiees.	npe clothing
+item_wookiee_spy_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Spy Hat	A piece of issued spy clothing designed for Wookiees.	npe clothing
+item_wookiee_spy_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Spy Gloves	A piece of issued spy clothing designed for Wookiees.	npe clothing
+item_wookiee_entertainer_shirt_01_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Entertainer Tunic	A piece of issued entertainer clothing designed for Wookiees.	npe clothing
+item_wookiee_entertainer_pants_01_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Entertainer Skirt	A piece of issued entertainer clothing designed for Wookiees.	npe clothing
+item_wookiee_entertainer_hat_01_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Entertainer Hat	A piece of issued entertainer clothing designed for Wookiees.	npe clothing
+item_wookiee_entertainer_gloves_01_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Entertainer Gloves	A piece of issued entertainer clothing designed for Wookiees.	npe clothing

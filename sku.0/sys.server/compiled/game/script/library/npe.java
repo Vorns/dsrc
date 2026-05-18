@@ -583,10 +583,69 @@ public class npe extends script.base_script
         }
         else if (pSpecies == SPECIES_WOOKIEE)
         {
-            theSet.add(static_item.createNewItemFunction("item_wookiee_shirt_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_wookiee_pants_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_wookiee_hat_02_01", pInv));
-            theSet.add(static_item.createNewItemFunction("item_wookiee_gloves_02_01", pInv));
+	     if (utils.isProfession(player, utils.TRADER))
+		{
+		  theSet.add(static_item.createNewItemFunction("item_wookiee_trader_shirt_01_01", pInv));
+            	  theSet.add(static_item.createNewItemFunction("item_wookiee_trader_pants_01_01", pInv));
+            	  theSet.add(static_item.createNewItemFunction("item_wookiee_trader_hat_01_01", pInv));
+            	  theSet.add(static_item.createNewItemFunction("item_wookiee_trader_gloves_01_01", pInv));
+		}
+	         else if (utils.isProfession(player, utils.SMUGGLER))
+		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_smuggler_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_smuggler_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_smuggler_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_smuggler_gloves_01_01", pInv));
+    		}
+	         else if (utils.isProfession(player, utils.BOUNTY_HUNTER))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_bounty_hunter_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_bounty_hunter_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_bounty_hunter_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_bounty_hunter_gloves_01_01", pInv));
+    		}
+		 else if (utils.isProfession(player, utils.OFFICER))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_officer_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_officer_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_officer_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_officer_gloves_01_01", pInv));
+    		}
+ 		 else if (utils.isProfession(player, utils.COMMANDO))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_commando_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_commando_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_commando_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_commando_gloves_01_01", pInv));
+    		}
+ 		 else if (utils.isProfession(player, utils.MEDIC))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_medic_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_medic_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_medic_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_medic_gloves_01_01", pInv));
+    		}
+ 		 else if (utils.isProfession(player, utils.SPY))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_spy_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_spy_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_spy_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_spy_gloves_01_01", pInv));
+    		}
+    		 else if (utils.isProfession(player, utils.ENTERTAINER))
+    		{
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_entertainer_shirt_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_entertainer_pants_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_entertainer_hat_01_01", pInv));
+        	  theSet.add(static_item.createNewItemFunction("item_wookiee_entertainer_gloves_01_01", pInv));
+    		}
+	      else
+		{
+                  theSet.add(static_item.createNewItemFunction("item_wookiee_shirt_02_01", pInv));
+                  theSet.add(static_item.createNewItemFunction("item_wookiee_pants_02_01", pInv));
+                  theSet.add(static_item.createNewItemFunction("item_wookiee_hat_02_01", pInv));
+                  theSet.add(static_item.createNewItemFunction("item_wookiee_gloves_02_01", pInv));
+		}
         }
         else if (pSpecies == SPECIES_ITHORIAN)
         {
@@ -748,28 +807,31 @@ public class npe extends script.base_script
                 theSet.add(static_item.createNewItemFunction("item_entertainer_shirt_02_01", pInv));
                 theSet.add(static_item.createNewItemFunction("item_entertainer_pants_02_01", pInv));
                 theSet.add(static_item.createNewItemFunction("item_entertainer_hat_02_01", pInv));
+
                 if (pSpecies == SPECIES_TRANDOSHAN)
                 {
                     theSet.add(static_item.createNewItemFunction("item_npe_trando_necklace_01_01", pInv));
                 }
-                else 
+                else
                 {
                     theSet.add(static_item.createNewItemFunction("item_entertainer_boots_02_01", pInv));
                 }
             }
-            else 
+            else
             {
                 theSet.add(static_item.createNewItemFunction("item_entertainer_shirt_02_02", pInv));
                 theSet.add(static_item.createNewItemFunction("item_entertainer_skirt_02_01", pInv));
+
                 if (pSpecies != SPECIES_MON_CALAMARI && pSpecies != SPECIES_TRANDOSHAN)
                 {
                     theSet.add(static_item.createNewItemFunction("item_entertainer_gloves_02_01", pInv));
                 }
+
                 if (pSpecies == SPECIES_TRANDOSHAN)
                 {
                     theSet.add(static_item.createNewItemFunction("item_npe_trando_necklace_01_01", pInv));
                 }
-                else 
+                else
                 {
                     theSet.add(static_item.createNewItemFunction("item_entertainer_shoes_02_01", pInv));
                 }
