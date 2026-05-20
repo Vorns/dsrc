@@ -1319,6 +1319,7 @@ public class npe extends script.base_script
         else if (utils.isProfession(player, utils.FORCE_SENSITIVE))
         {
             theSet.add(static_item.createNewItemFunction("weapon_polearm_02_03", pInv));
+	    theSet.add(static_item.createNewItemFunction("item_force_sensitive_backpack_01_02", pInv));
         }
         else if (utils.isProfession(player, utils.MEDIC))
         {
