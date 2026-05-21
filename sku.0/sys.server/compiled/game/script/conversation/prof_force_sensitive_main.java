@@ -3,6 +3,8 @@ package script.conversation;
 import script.library.ai_lib;
 import script.library.chat;
 import script.library.groundquests;
+import script.library.static_item;
+import script.library.sui;
 import script.library.utils;
 import script.*;
 
@@ -12,6 +14,14 @@ public class prof_force_sensitive_main extends script.base_script
     {
     }
     public static String c_stringFile = "conversation/prof_force_sensitive_main";
+
+    public static final String CRYSTAL_BLUE = "item_color_crystal_02_04";
+    public static final String CRYSTAL_GREEN = "item_color_crystal_02_02";
+    public static final String CRYSTAL_YELLOW = "item_color_crystal_02_06";
+    public static final String CRYSTAL_RED = "item_color_crystal_02_00";
+
+
+
     public boolean prof_force_sensitive_main_condition__defaultCondition(obj_id player, obj_id npc) throws InterruptedException
     {
         return true;
@@ -40,10 +50,95 @@ public class prof_force_sensitive_main extends script.base_script
     {
         faceTo(npc, player);
     }
+	
+	
     public void prof_force_sensitive_main_action_giveRewardSignal_21(obj_id player, obj_id npc) throws InterruptedException
     {
-        groundquests.sendSignal(player, "prof_force_sensitive_21_3_reward");
+       showCrystalChoice(player, npc);
     }
+    
+    public void showCrystalChoice(obj_id player, obj_id npc) throws InterruptedException
+{
+    if (!groundquests.isTaskActive(player, "prof_force_sensitive_21_1", "getreward"))
+    {
+        return;
+    }
+
+    String[] options = new String[4];
+    options[0] = "Blue";
+    options[1] = "Green";
+    options[2] = "Yellow";
+    options[3] = "Red";
+
+    int pid = sui.listbox(
+        npc,
+        player,
+        "You have found your crystal. Choose the color that reflects your path.",
+        sui.OK_CANCEL,
+        "Choose Your Lightsaber Crystal",
+        options,
+        "handleCrystalChoice",
+        true,
+        false
+    );
+
+    sui.showSUIPage(pid);
+}
+
+public int handleCrystalChoice(obj_id self, dictionary params) throws InterruptedException
+{
+    obj_id player = sui.getPlayerId(params);
+
+    if (!isIdValid(player))
+    {
+        return SCRIPT_CONTINUE;
+    }
+
+    if (sui.getIntButtonPressed(params) == sui.BP_CANCEL)
+    {
+        return SCRIPT_CONTINUE;
+    }
+
+    int selection = sui.getListboxSelectedRow(params);
+
+    if (selection < 0)
+    {
+        return SCRIPT_CONTINUE;
+    }
+
+    if (!groundquests.isTaskActive(player, "prof_force_sensitive_21_1", "getreward"))
+    {
+        return SCRIPT_CONTINUE;
+    }
+
+    String crystal = "";
+
+    switch (selection)
+    {
+        case 0:
+            crystal = CRYSTAL_BLUE;
+            break;
+        case 1:
+            crystal = CRYSTAL_GREEN;
+            break;
+        case 2:
+            crystal = CRYSTAL_YELLOW;
+            break;
+        case 3:
+            crystal = CRYSTAL_RED;
+            break;
+        default:
+            return SCRIPT_CONTINUE;
+    }
+
+    obj_id pInv = utils.getInventoryContainer(player);
+    static_item.createNewItemFunction(crystal, pInv);
+
+    groundquests.sendSignal(player, "prof_force_sensitive_21_3_reward");
+
+    return SCRIPT_CONTINUE;
+}
+
     public int prof_force_sensitive_main_handleBranch1(obj_id player, obj_id npc, string_id response) throws InterruptedException
     {
         if (response.equals("s_13"))
