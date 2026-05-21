@@ -1296,6 +1296,8 @@ public class npe extends script.base_script
             questClearQuest(quest, player);
         }
     }
+
+		//Tansarii Station. Han Solo's gift from "friends"
     public static obj_id[] giveProfessionWeapon(obj_id player) throws InterruptedException
     {
         obj_id pInv = utils.getInventoryContainer(player);
@@ -1318,7 +1320,20 @@ public class npe extends script.base_script
         }
         else if (utils.isProfession(player, utils.FORCE_SENSITIVE))
         {
-            theSet.add(static_item.createNewItemFunction("weapon_polearm_02_03", pInv));
+		
+            theSet.add(static_item.createNewItemFunction("weapon_npe_lightsaber_02_02", pInv));
+		//weapon_npe_lightsaber_02_02 = Training Lightsaber
+
+	    theSet.add(static_item.createNewItemFunction("item_color_crystal_02_04", pInv));
+		//item_color_crystal_02_00 = Red
+		//item_color_crystal_02_01 = Dark Red
+		//item_color_crystal_02_02 = Light Green
+		//item_color_crystal_02_03 = Dark Green
+		//item_color_crystal_02_04 = Blue
+		//item_color_crystal_02_05 = Dark Blue
+		//item_color_crystal_02_06 = Yellow
+		//item_color_crystal_02_07 = Dark Yellow
+		
 	    theSet.add(static_item.createNewItemFunction("item_force_sensitive_backpack_01_02", pInv));
         }
         else if (utils.isProfession(player, utils.MEDIC))

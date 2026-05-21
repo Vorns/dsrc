@@ -3139,7 +3139,7 @@ item_junk_insect_81thru90_01_02	object/tangible/loot/creature_loot/generic/gener
 item_junk_insect_81thru90_01_03	object/tangible/loot/creature_loot/generic/generic_antennae.iff							1	975	object.autostack		1	Antenna	This item can be sold to a junk dealer.	
 item_junk_insect_81thru90_01_04	object/tangible/loot/creature_loot/generic/lungs_gland.iff							1	975	object.autostack		1	Nerve Complex	This item can be sold to a junk dealer.	
 item_junk_insect_81thru90_01_05	object/tangible/loot/creature_loot/generic/mantis_arm.iff							1	975	object.autostack		1	Leg	This item can be sold to a junk dealer.	
-weapon_npe_lightsaber_02_02	object/weapon/melee/sword/crafted_saber/generic_sword_lightsaber_training.iff	weapon		26	force_sensitive			2		"item.special.nomove,systems.jedi.jedi_weapon_noslice,systems.jedi.saber_base"		1	Training Lightsaber	Training Lightsaber	
+weapon_npe_lightsaber_02_02	object/weapon/melee/sword/crafted_saber/generic_sword_lightsaber_training.iff	weapon		1	force_sensitive			2		"item.special.nomove,systems.jedi.jedi_weapon_noslice,systems.jedi.saber_base"		1	Training Lightsaber	Training Lightsaber	
 weapon_pistol_drop_lvl10_02_01	object/weapon/ranged/pistol/pistol_cdef_npe.iff	weapon		10				2	225			1	Retrofitted CDEF Pistol	Retrofitted CDEF Pistol	
 weapon_pistol_drop_lvl20_02_01	object/weapon/ranged/pistol/pistol_d18_npe.iff	weapon		20				2	1575			1	Adjusted D-18 Pistol	Adjusted D-18 Pistol	
 weapon_pistol_drop_lvl30_02_01	object/weapon/ranged/pistol/pistol_striker_static.iff	weapon		30				2	2810			1	Converted Striker Pistol	Converted Striker Pistol	

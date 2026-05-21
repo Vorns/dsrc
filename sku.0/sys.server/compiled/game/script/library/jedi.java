@@ -70,7 +70,7 @@ public class jedi extends script.base_script
     public static final int CRYSTAL_PREMIUM = 5;
     public static final int CRYSTAL_FLAWLESS = 6;
     public static final int CRYSTAL_PERFECT = 7;
-    public static final int MIN_CRYSTAL_TUNE_PLAYER_LEVEL = 20;
+    public static final int MIN_CRYSTAL_TUNE_PLAYER_LEVEL = 1;
     public static final int MIN_NON_FR_JEDI_BOUNTY = 25000;
     public static final int PER_JEDI_SKILL_PT_COST = 1000;
     public static final int MIN_FR_JEDI_BOUNTY = 50000;
