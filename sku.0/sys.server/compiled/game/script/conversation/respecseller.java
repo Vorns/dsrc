@@ -9,6 +9,14 @@ public class respecseller extends script.base_script
     {
     }
     public static String c_stringFile = "conversation/respecseller";
+
+	//Adding Level Boost Content to Profession Counselor so player can skip the grind
+	//This is mostly for veteran players who don't want to grind out another character
+    public static final String VAR_LEVEL_BOOST_USED = "respecseller.level_boost_used";
+    public static final String VAR_LEVEL_BOOST_TARGET= "respecseller.level_boost_target";
+
+    public static final string_id SID_LEVEL_BOOST= new string_id(c_stringFile, "level_boost");
+
     public boolean respecseller_condition__defaultCondition(obj_id player, obj_id npc) throws InterruptedException
     {
         return true;
@@ -852,14 +860,138 @@ public class respecseller extends script.base_script
         setCondition(self, CONDITION_CONVERSABLE);
         return SCRIPT_CONTINUE;
     }
+
+    public void showLevelBoostMenu(obj_id player, obj_id npc) throws InterruptedException
+    {
+        if (hasObjVar(player, VAR_LEVEL_BOOST_USED))
+	{
+           sendSystemMessageTestingOnly(player, "You have already used your one-time level boost.");
+	   return;
+	}
+
+	String[] options = new String[4];
+	options[0] = "level 20";
+	options[1] = "level 40";
+	options[2] = "level 70";
+	options[3] = "level 90";
+	
+	int pid = sui.listbox(
+	    npc,
+	    player,
+	    "Choose wisely. This level boost can only be used once by this charcter.",
+	    sui.OK_CANCEL,
+	    "One-Time level boost",
+	    options,
+	    "handleLevelBoostChoice",
+	    true,
+	    false);
+
+	sui.showSUIPage(pid);
+
+    }
+
+    public int handleLevelBoostChoice(obj_id self, dictionary params) throws InterruptedException
+    {
+	obj_id player = sui.getPlayerId(params);
+
+	if(!isIdValid(player))
+	{
+	   return SCRIPT_CONTINUE;
+	}
+
+	if(sui.getIntButtonPressed(params) == sui.BP_CANCEL)
+	{
+	   return SCRIPT_CONTINUE;
+	}
+
+	int selection = sui.getListboxSelectedRow(params);
+	int targetLevel = 0;
+	
+	switch (selection)
+	{
+	   case 0:
+	     targetLevel = 20;
+	     break;
+	   case 1:
+	     targetLevel = 40;
+	     break;
+	   case 2:
+	     targetLevel = 70;
+	     break;
+	   case 3:
+	     targetLevel = 90;
+	     break;
+	     default:
+		return SCRIPT_CONTINUE;
+	}
+
+	applyOneTimeLevelBoost(player, targetLevel);
+	
+	return SCRIPT_CONTINUE;
+
+    }
+
+    public void applyOneTimeLevelBoost(obj_id player, int targetLevel) throws InterruptedException
+    {
+	if(hasObjVar(player, VAR_LEVEL_BOOST_USED))
+	{
+	   sendSystemMessageTestingOnly(player, "You have already used one-time level boost.");
+	   return;
+	}
+
+	int currentLevel = getLevel(player);
+
+	if(currentLevel >= targetLevel)
+	{
+	   sendSystemMessageTestingOnly(player,"You are alread level " + targetLevel + " or higher.");
+	   return;
+	}
+
+	if(respec.autoLevelPlayer(player, targetLevel, true))
+	{
+	   utils.fullExpertiseReset(player, true);
+	   expertise.autoAllocateExpertiseByLevel(player, false);
+
+	   setObjVar(player, VAR_LEVEL_BOOST_USED, 1);
+	   setObjVar(player, VAR_LEVEL_BOOST_TARGET, targetLevel);
+
+	   sendSystemMessageTestingOnly(player, "You have used your one-time level boost to reach level " + targetLevel + ".");
+
+	}
+	else
+	{
+	   sendSystemMessageTestingOnly(player, "The level boost failed.");
+	}
+
+    }
+
     public int OnObjectMenuRequest(obj_id self, obj_id player, menu_info menuInfo) throws InterruptedException
     {
         int menu = menuInfo.addRootMenu(menu_info_types.CONVERSE_START, null);
         menu_info_data menuInfoData = menuInfo.getMenuItemById(menu);
         menuInfoData.setServerNotify(false);
+
+	if (!hasObjVar(player, VAR_LEVEL_BOOST_USED))
+	{
+	   menuInfo.addRootMenu(menu_info_types.SERVER_MENU1, SID_LEVEL_BOOST);
+	}
+
         setCondition(self, CONDITION_CONVERSABLE);
         return SCRIPT_CONTINUE;
     }
+
+
+    public int OnObjectMenuSelect(obj_id self, obj_id player, int item) throws InterruptedException
+    {
+        if (item == menu_info_types.SERVER_MENU1)
+        {
+	   showLevelBoostMenu(player, self);
+	   return SCRIPT_OVERRIDE;
+	}
+
+	return SCRIPT_CONTINUE;
+    }
+
     public int OnIncapacitated(obj_id self, obj_id killer) throws InterruptedException
     {
         clearCondition(self, CONDITION_CONVERSABLE);
